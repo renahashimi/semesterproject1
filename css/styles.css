@@ -7,14 +7,14 @@
 
 
 .mus1 {
-    display: block;
-    background-image: url(/images/other/woods.jpg);
-    height: 350px;
-    background-color: #fff;
-    background-repeat: no-repeat;
-    background-size: contain;
+    display:block;
+    background-image: url(/images/scott-webb.jpg);
+    width: 100vh;
+    height: 250px;
+    background-size: cover;
     margin-top: 15px;
     margin-bottom: 15px;
-    object-position: 0 -20%;
+  
+ 
 
 }
