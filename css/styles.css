@@ -1,20 +1,535 @@
+:root {
+    --pink: #CB87B4;
+    --black: #000;
+    --white: #fff;
+}
+
+body {  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    padding: 0;
+}
+
+/*ALL*/
+
+.h1-name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--pink);
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+}
+nav a, nav li {
+    text-decoration: none;
+    list-style: none;
+}
+
+p {
+    line-height: 1.4em;
+}
 
 
 
+/*HEADER*/
 
 
-
-
-
-.mus1 {
-    display:block;
-    background-image: url(/images/scott-webb.jpg);
-    width: 100vh;
-    height: 250px;
-    background-size: cover;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  
- 
+.header1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: var(--pink
+    );
 
 }
+
+.logotext {
+    display: block;
+    margin-left: -70px;
+}
+
+.header2 {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto 1fr;
+
+}
+
+.logo {
+    width: 50px;
+    margin: 30px 15px
+}
+
+.top {
+    font-size: 1.4em;
+    margin: 30px 5px;
+}
+
+.csm {
+    font-size: 16px;
+    margin-top: -30px;
+    margin-left: 5px;
+}
+
+.links1 {
+    display: flex;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000;
+    padding: 8px 0;
+    font-size: 0.8em;
+    color: #fff;
+    justify-content: center;
+}
+
+.links1 a {
+    color: #fff;
+    padding: 7px 10px;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    list-style: none;
+}
+
+.links1 a::before, .links1 a::after {
+    content: "";
+    border: 1px solid var(--white);
+    margin: 0 4px;
+}
+
+
+#menu-checkbox, .links2  {
+    display: none;
+}
+
+#menu-checkbox:checked ~ .links2 {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    float: left;
+    line-height: 2;
+    padding: 0;  
+}
+
+.fa-solid {
+    margin: 45px 30px 20px;
+}
+
+.links2  {
+    margin: 5px 0;
+}
+
+.nav2 {
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+.nav2 li {
+    font-family:'Courier New', Courier, monospace;
+    border: 1px solid var(--pink);
+    padding: 5px 40px;
+    letter-spacing: 0.3em;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.nav2 a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--black);
+}
+
+.logox {
+    display: block;
+    width: 50px;
+    margin: 20px 30px 0;
+    float: right;
+}
+
+
+
+/*HOME*/
+
+.content-mus {
+    background-color: var(--pink);
+}
+
+.mus1 {
+    display: block;
+    background-image: url(images/scott-webb.jpg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background: no-repeat;    
+    margin-top: 0px;
+    margin-bottom: 15px;    
+}
+
+.ex {
+    justify-content: center;
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.ex::after {
+    content: "";
+    display: block;
+    border: 2px solid #000;
+    width: 100px;
+    opacity: 40%;
+    border-radius: 30%;
+    margin: 10px auto;
+
+}
+
+.ex-p {
+    font-size: 1em;
+    text-align: center;
+    margin: 20px 10px 0;
+    padding-bottom: 30px;
+}
+
+
+.content-img {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    margin: 60px 0 0;
+    background-color: var(--whitek);
+    isolation: isolate;
+}
+
+.content-img::after {
+    content: "";
+    position: absolute;
+    background-color: var(--pink);
+    inset: 0;
+    transform: skewY(-5deg);
+    z-index: -1;
+    height: 130px;
+    margin-top: 35px;
+}
+
+.img1 {
+    width: 28%;
+    justify-content: center;
+    margin: 3px;
+    height: 190px;
+}
+
+.ake {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 30px;
+    color: var(--pink);
+    letter-spacing: 0.1em;
+}
+
+.head1, .head2 {
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.head1::before, .head1::after, .head2::before, .head2::after {
+    content: "";
+    display: inline-flex;
+    background-color: var(--pink);
+    width: 15%;
+    height: 20px;
+    margin: 2px;
+    padding-bottom: 4px;
+    border-inline: 1px solid var(--pink);
+}
+
+.head1::after {
+    width: 50%;
+}
+
+.head2::after {
+    width: 60%;
+}
+
+.content-explore {
+    display: block;
+    margin: 5px 15px;  
+}
+
+.expl-text {
+    display: flex;
+    border: 2px solid var(--pink);
+    margin: 5px;
+    height: 160px;
+}
+
+.img2-p {
+    font-size: 1em;
+    padding: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    letter-spacing: 0.6px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.img2 {
+    width: 33%;
+}
+
+.content-night {
+    display: block;
+    margin: 5px;
+}
+
+.head3 {
+    font-size: 24px;
+    font-weight: 400;
+    background-color: var(--pink);
+    text-align: center;
+    padding: 30px 0;
+}
+
+.img-nitm {
+    width: 100%;
+    margin-top: -32px;
+    height: 400px;
+}
+
+.text-nitm {
+    background-color: var(--black);
+    margin-top: -5px;
+}
+
+.text-p {
+    font-size: 1em;
+    letter-spacing: 0.8px;
+    text-align: center;
+    font-weight: 300;
+    margin: 0 20px;
+    padding: 15px 0;
+    color: var(--white);
+}
+
+.turbine {
+    margin: 40px 5px;
+    position: relative;
+}
+
+.turb-img {
+    width: 100%;
+    height: auto;
+}
+
+.turb-p h5 {  
+    position: absolute;
+    top: 0;
+    color: var(--white);
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-align: right;
+    margin: 30px 25px 0 80px;
+}
+
+.remo {
+    position: absolute;
+    top: 70%;
+    left: 63%;
+    color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.content-vspa {
+    display: inline-block;
+    border: 4px solid var(--pink);
+    margin: 5px 20px 60px;
+}
+
+.head5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--pink);
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 4px 5px;
+    text-align: center;
+}
+
+.vspa-img {
+    width: 80%;
+    margin: 0px 0px -10px;
+}
+
+.vspa-p {
+    margin: 5px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.2em;
+}
+
+
+/*EXHIBITION SPACE*/
+
+.content-cosmos {
+    display: block;
+    background: #0E0E0C;
+    width: 100%;
+    height: 350px;
+    margin-top: -10px;
+}
+
+.content-cosmos h2 {
+    color: var(--white);
+    padding: 20px 0  0;
+    position: relative;
+}
+
+.content-cosmos img {
+    width: 100%;
+    margin: -70px 0 -50px;
+}
+
+.p-cosmos {
+    color: var(--white);
+    margin: 0 40px;
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.head-es {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+.rm-cosmos {
+    border: 1px solid var(--white);
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 0.9em;
+    border-radius: 25px;
+    width: 100px;
+    padding: 4px 5px;
+    text-align: center;
+    margin: 10px auto 30px;
+}
+
+.article {
+    display: block;
+    margin: 30px;
+}
+
+.art-x {
+    border: 1px solid var(--pink);
+    margin: 20px 0;
+}
+
+.art-x1 {
+    border: 1px solid var(--black);
+    margin: 20px 0;
+
+}
+
+.art-img {
+    width: 100%;
+    height: auto;
+}
+
+.art-name, .art-name1 {
+  
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    margin: 20px;
+    color: var(--white);
+}
+
+.art-name { 
+    background-color: var(--pink);
+}
+
+.art-name1{
+    background-color: var(--black);
+}
+
+.art-p {
+    font-size: 1em;
+    text-align: center;
+    margin: 25px;
+}
+
+.art-rm {
+    font-size: 0.9em;
+    border: 1px solid var(--black);
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 25px;
+    width: 100px;
+    padding: 4px 5px;
+    text-align: center;
+    margin: 20px auto 30px;
+}
+
+
+ 
+/*FOOTER*/
+
+.footer1 {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: var(--pink
+    );
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 80px;
+    padding: 15px 0 20px;
+
+    margin: 30px 0;
+}
+
+.logotext2 {
+    display: flex;
+}
+
+.logo1 {
+    display: flex;
+    padding: 2px;
+    margin: 5px 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.top2 {
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+.csm2 {
+    font-size: 0.6em;
+    margin-top: -10px;
+}
+
+.foot2 {
+    display: flexbox;
+    margin-right: 20px;
+}
+
+.logo2 {
+    display: flex;
+    width: 20px;
+    margin: 50px 2px;
+    float: right;
+}
+
