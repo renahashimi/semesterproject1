@@ -605,7 +605,7 @@ p {
 /*VISIT*/
 
 .content-visit {
-    max-width: 400px;
+    width: 400px;
     text-align: center;
     justify-content: center;
     margin: 0 auto;
@@ -682,7 +682,7 @@ p {
 
 /*GET INVOLVED*/
 
-.content-inv {
+.content-inv, .content-inv2 {
     max-width: 90%;
     text-align: left;
     margin: 50px auto;
@@ -804,10 +804,10 @@ p {
 
 /*MEDIA*/
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
 
 
-    /*ALL*/
+/*ALL*/
 
 p {
     font-size: 1.2em;
@@ -985,14 +985,13 @@ p {
     text-align: center;
     font-weight: 300;
     margin: 10px;
-    padding: 5px ;
+    padding: 5px;
     color: var(--black);
 }
 
 .turbine {
     border: 2px solid var(--pink);
     width: 500px;
-    height:;
     margin: 20px auto;
 }
 
@@ -1003,12 +1002,11 @@ p {
 }
 
 .turb1 {
-    display: flex;
-    
+    display: flex; 
 }
+
 .turb2 {
     margin: -20px 5px;
-
 }
 
 .turb-img {
@@ -1101,9 +1099,6 @@ p {
     margin: 20px auto;
 }
 
-.art-name2 {
-
-}
 .art-img2 {
     display: block;
     max-width: 400px;
@@ -1147,8 +1142,8 @@ p {
     width: 300px;
     height: 200px;
     margin: 30px;
-
 }
+
 .ex1 {
     width: 100%;
 }
@@ -1167,88 +1162,126 @@ p {
 /*VISIT*/
 
 .content-visit {
-   
+    display: block;
+    width: 700px;
+    justify-content: center;
+    
+    font-size: 1em;
+    margin: 30px auto 30px;
 }
 
-
-
-
-
+.visit1, .visit2 {
+    display: flex;
 }
-/*
 
+.visit2 {
+    justify-content: center;
+}
 
-/*
+.visit3 .visit-box  {
+    width: 200px;
+    height: 150px;
+}
 
 .visit-box {
-    border: 1px solid var(--black);
-    margin: 20px 15px;
+    width: 250px;
+    margin: 5px;
+    padding: 0 05px;
 }
-
-.visit-head, .visit-head2 {
-    text-transform: uppercase;
-    font-size: 1.1em;
-    color: var(--pink);
-    margin-bottom: 30px;
-}
-
-.visit-head2 {
-    margin-top: 30px;
-}
-
 
 .visit-p {
-    margin: 10px 20px 20px;
+    margin: 10px 5px;
 }
 
-.contact-p {
-    font-size: 0.9em;
-    margin-top: 40px;
+.visit2 .visit-box {
+    width: 350px;
 }
 
-.contact-form {
-    margin: 0 0 20px;
-    
+.visit-head {
+    margin: 30px 0 0;
 }
 
 .name, .email, .phone {
-    display: block;
-    margin: 10px auto 20px;
-    padding: 5px 0;
-    width: 80%;
+    margin: 10px auto 5px;
 }
-.c-name, .c-email, .c-phone {
+
+.v-box1, .v-box2, .v-box3 {
+    border: 1px solid var(--black);
+    width: 350px;
+    margin: 5px;
+}
+
+.visit-box1  {
+    border: none;
+}
+
+.visit-head2 {
+    padding: 15px 0;
+}
+
+
+/*GET INVOLVED*/
+
+.gi1 {
+    display: flex;
+    margin: 20px;
+}
+
+.content-inv {
     display: block;
-    padding: 5px 20px;   
-    margin: 10px 15px -10px;
-    text-align: left;
+    margin: 20px;
+    border-left: 1px solid var(--pink);
+}
+
+.gi2 {
+    display: flex;
+}
+
+
+
+
+}
+/*
+
+
+
+/*"READ MORE"-BUTTON PAGE*/
+/*
+
+.content-read {
+    width: 100%;
+    background-image: url("../images/32.jpg");
+    background-size: 110%;    margin: 30px 0;
+    padding-bottom: 30px;
+    border-top: 1px solid var(--pink);
+}
+
+.read-name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    margin: 20px;
+    color: var(--white);
+}
+
+.read-name2 {
+    font-size: 1.2em;
+    margin: -10px 20px 40px;
+    font-weight: 800; 
     color: var(--pink);
 }
 
-.c-text {
-    width: 80%;
-    margin: 10px auto 30px;
-}
-
-.c-button {
+.read-p, .read-p1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px 120px 50px 20px;
     font-size: 1em;
-    letter-spacing: 0.15em;
-    border-radius: 25px;
-    background-color: var(--pink);
+    border-left: 1px solid var(--pink);
+    padding-left: 10px;
     color: var(--white);
-    width: 60%;
-    padding: 10px;
-    margin-bottom: 20px;
-    align-items: center;
-    text-transform: uppercase;     
 }
 
-.hide-img {
-    display: none;
+.read-p1 {
+    font-weight: 600;
 }
-
-
 */
 @media only screen and (min-width: 1025px) and (max-width: 1250px) {
 
