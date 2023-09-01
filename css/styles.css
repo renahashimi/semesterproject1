@@ -24,6 +24,12 @@ body {
 nav a, nav li {
     text-decoration: none;
     list-style: none;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
 }
 
 p {
@@ -71,12 +77,13 @@ p {
     margin-left: 5px;
 }
 
-.links1 {
+.links1 ul{
     display: flex;
     width: 100%;
     font-family: 'Rajdhani', sans-serif;
     background-color: #000;
     padding: 8px 0;
+    margin: -15px 0;
     font-size: 0.9em;
     color: #fff;
     justify-content: center;
@@ -120,20 +127,21 @@ p {
 
 .links2  {
     font-family: "Audiowide", sans-serif;
-    margin-top: 50px;
+    margin-top: 10px;
+
 }
 
 .nav2 {
     font-size: 1em;
     width: 100%;
     text-align: center;
-    margin-top: 20px;
+    margin-top:0px;
 }
 
 .nav2 li {
     font-family: "Audiowide", sans-serif;
     border: 1px solid var(--pink);
-    padding: 5px 40px;
+    padding: 5px 0px;
     letter-spacing: 0.3em;
     font-size: 1em;
     font-weight: 600;
@@ -570,9 +578,12 @@ p {
     margin: 10px 5px;
 }
 
+.box-p3 {
+    margin: 10px 20px;
+}
 .box-img3 {
     display: block;
-    max-width: 400px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -592,12 +603,10 @@ p {
     margin: 0 auto;
 }
 
-
-
 .line {
     content: "";
     border: 10px solid var(--pink);
-    width: 100%;
+    max-width: 100%;
     margin: 40px 0;
 }
 
@@ -605,7 +614,7 @@ p {
 /*VISIT*/
 
 .content-visit {
-    width: 400px;
+    max-width: 80%;
     text-align: center;
     justify-content: center;
     margin: 0 auto;
@@ -638,8 +647,8 @@ p {
 }
 
 .contact-form {
-    margin: 0 0 20px;
-    
+   
+    margin: 0 auto 20px;
 }
 
 .name, .email, .phone {
@@ -648,6 +657,7 @@ p {
     padding: 5px 0;
     width: 80%;
 }
+
 .c-name, .c-email, .c-phone {
     display: block;
     padding: 5px 20px;   
@@ -1128,6 +1138,10 @@ p {
     margin: 0 auto 20px;
 }
 
+
+
+/*EXPLORE*/
+
 .content-explore2 {
     display: grid;
     grid-template-columns: auto auto;
@@ -1155,18 +1169,20 @@ p {
 
 .box-img5 {
     display: block;
-    width: 300px;
+    width: 280px;
     height: 200px;
-    margin: 30px;
+    margin: 20px 0;
 }
 
 .ex1 {
     width: 100%;
+    justify-content: left;
 }
 
 .box-p3 {
     display: block;
     width: 400px;
+    float: left;
 }
 
 .ex1 {
