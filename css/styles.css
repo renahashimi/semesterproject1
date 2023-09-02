@@ -489,6 +489,10 @@ EXHIBITION SPACE
     margin: 20px 0;
 }
 
+.art-x2 a {
+    text-decoration: none;
+}
+
 .art-x1, .art-x2 {
     border: 1px solid var(--black);
     margin: 20px 0;
@@ -537,6 +541,7 @@ EXHIBITION SPACE
     padding: 4px 5px;
     text-align: center;
     margin: 20px auto 30px;
+    text-decoration: none;
 }
 
 
@@ -946,7 +951,10 @@ MEDIA
 /*HOME*/
 
 .mus1 {
-    height: 270px;  
+    height: 290px;  
+    object-fit: cover;
+    object-position: 50% 45%;
+    
 }
 
 .ex {
