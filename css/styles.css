@@ -928,6 +928,7 @@ MEDIA
     padding: 10px 0;
     font-size: 1.1em;
     letter-spacing: 0.2em;
+    font-weight: bolder;
 }
 
 .links1 a {
@@ -1417,6 +1418,36 @@ MEDIA
 
 }
 
+
+
+/*FOOTER*/
+
+.footer1 {
+    height: 100px;
+}
+
+.logo1 {
+    margin: 5px 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.top2 {
+    font-size: 1em;
+}
+
+.csm2 {
+    font-size: 0.9em;
+}
+
+.foot2 {
+    display: flexbox;
+    margin-right: 20px;
+}
+
+.logo2 {
+    width: 40px;
+}
 
 
 @media screen and (min-width: 1024px) {
