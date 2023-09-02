@@ -476,7 +476,8 @@ EXHIBITION SPACE
 
 .article {
     display: block;
-    margin: 30px;
+    width: 400px;
+    margin: 30px auto;
 }
 
 .article a {
@@ -1147,7 +1148,7 @@ MEDIA
 .article {
     display: flex;
     justify-content: space-evenly;
-    margin: 20px 10px;
+    margin: 30px auto;
 }
 
 .art-x {
@@ -1156,6 +1157,7 @@ MEDIA
     grid-template-rows: 60px 160px 190px 60px;
     width: 220px;
     max-width: 300px;
+    margin: 0 10px;
     border: 1px solid var(--pink);
 }
 
@@ -1416,8 +1418,6 @@ MEDIA
     width: 290px;
 }
 
-}
-
 
 
 /*FOOTER*/
@@ -1450,6 +1450,197 @@ MEDIA
 }
 
 
+}
 @media screen and (min-width: 1024px) {
 
+/*HEADER*/
+
+.header1 {
+    height: 120px;
 }
+ 
+.logo {
+    width: 70px;
+}
+
+.top {
+    font-size: 1.6em;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.csm {
+    font-size: 1.4em;
+    margin-left: 30px;
+}
+
+.logox {
+    width: 80px;
+}
+
+.links1 {
+    padding: 10px 0;
+    font-size: 1.2em;
+}
+
+.links1 a {
+    padding: 10px 30px 15px;
+}
+
+#menu-checkbox:checked ~ .links2 {
+    width: 35%;
+}
+
+.nav2 li {
+    margin: 20px 0;
+}
+
+
+
+/*HOME*/
+
+.mus1 {
+    
+    height: 400px;  
+}
+
+.ex {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.ex::after {
+    margin: 10px auto;
+}
+
+.ex-p {
+    font-size: 1.3em;
+}
+
+.head1, .head2 {
+    font-size: 1.6em;
+    margin: -5px 0 0 150px;
+}
+
+.content-img
+.img2 {
+    width: 60%;
+}
+
+.expl-text {
+    margin: 5px 20px;
+    height: 240px;
+}
+
+.img2-p {
+    font-size: 1.2em;
+}
+
+.news2 {
+    margin: 20px auto 50px;
+    width: 800px;
+}
+
+.content-night {
+    width: 370px;
+    height: 550px;
+}
+
+.head3 {
+    font-size: 1.2em;
+    padding: 0px;
+}
+
+.img-nitm {
+    width: 370px;
+    height: 290px;
+    object-fit: cover;
+}
+
+.text-p {
+    font-size: 1.2em;
+}
+
+.turbine {
+    width: 400px;
+    height: 550px;
+}
+
+.turb-img {
+    width: 400px;
+    height: 220px;
+    margin-top: 0px;
+}
+
+.turb-p, .turb-p2 {
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+.content-vspa {
+    width: 800px;
+}
+
+.vspa-p {
+    width: 350px;
+    font-size: 1.2em;
+}
+
+
+
+/*EXHIBITION*/
+
+.content-cosmos {
+    max-width: 900px;
+    justify-content: center;
+    margin: auto;
+}
+
+.article {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.art-x {
+    width: 290px;
+    height: 450px;
+}
+
+.art-p {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.art-rm {
+    margin-top: -5px;
+}
+
+.art-name {
+    font-size: 1.2em;
+}
+
+.head-es, .art-name2 {
+    font-size: 1.4em;
+}
+
+.art-img {
+    min-width: 220px;
+    height: 140px;
+}
+
+.article2 {
+    width: 800px;
+    margin: 20px auto 60px;
+}
+
+.p-cosmos, .art-p2 {
+    font-size: 1.2em;
+    width: 750px;
+}
+
+
+
+
+
+}
+
