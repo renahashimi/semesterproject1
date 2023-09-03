@@ -690,14 +690,14 @@ VISIT
 
 .name, .email, .phone {
     display: block;
-    margin: 10px auto 20px;
+    margin: 5px auto 20px;
     padding: 5px 0;
     width: 80%;
 }
 
 .c-name, .c-email, .c-phone {
     display: block;
-    padding: 5px 20px;   
+    padding: 5px 10px;
     margin: 10px 15px -10px;
     text-align: left;
     color: var(--pink);
