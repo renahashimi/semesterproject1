@@ -433,12 +433,14 @@ EXHIBITION SPACE
 .content-cosmos h2 {
     color: var(--white);
     padding: 30px 0 0;
-    margin-top: 20px;
+    margin-top: 10px;
+    font-size: 1.8em;
+    letter-spacing: 0.5em;
 }
 
 .content-cosmos img {
     width: 100%;
-    margin: -20px 0;
+    margin: -30px 0;
     object-fit: cover;
     height: 150px;
 }
@@ -499,7 +501,12 @@ EXHIBITION SPACE
 .art-x1, .art-x2 {
     border: 1px solid var(--black);
     margin: 20px 0;
+}
 
+.art-x2 {
+    width: 90%;
+    margin: 0 auto 40px;
+    border-top: 10px double var(--black);
 }
 
 .art-img, .art-img2 {
@@ -519,11 +526,13 @@ EXHIBITION SPACE
     color: var(--white);
 }
 
-.art-name, .art-name2 { 
-    background-color: var(--black);
+.art-name2 {
+    font-size: 1.8em;
+    color: var(--black);
+    font-weight: bolder;
 }
 
-.art-name2 {
+.art-name { 
     background-color: var(--black);
 }
 
@@ -987,6 +996,10 @@ MEDIA
     margin: 30px 30px 80px;
 }
 
+.img2-p {
+    width: 270px;
+}
+
 .color-head {  
     height: 40px;
 }
@@ -1027,6 +1040,22 @@ MEDIA
     display: block;
 }
 
+ /*
+.news3::after {
+    content: "";
+    position: absolute;
+    border-top: 2px solid var(--black);
+    border-width: 80px;
+    background-color: var(--pink);
+    inset: 0;
+    transform: skewY(18deg);
+    z-index: -2;
+    height: 20%;
+    margin-top: 2100px;
+    opacity: 0.5;
+}
+*/
+
 .content-night {
     display: block;
     background-color: var(--white);
@@ -1034,6 +1063,8 @@ MEDIA
     width: 270px;
     height: 550px;
     margin-left: 0;
+    border-left: 4px double var(--black);
+    border-left-width: 10px;
 }
 
 .head3 {
@@ -1076,6 +1107,8 @@ MEDIA
     width: 300px;
     height: 550px;
     margin: 5px 0 0; 
+    border-right: 4px double var(--black);
+    border-right-width: 10px;
 }
 
 .turb-img {
@@ -1114,8 +1147,9 @@ MEDIA
 
 .content-vspa {
     display: block;
+    background-color: var(--white);
     border: 4px solid var(--pink);
-    width: 630px;
+    width: 650px;
     margin: 10px auto 80px;
 }
 
@@ -1152,6 +1186,11 @@ MEDIA
     margin: 30px auto;
 }
 
+.content-cosmos h2 {
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
 .art-x {
     display: grid;
     grid-template-columns: auto;
@@ -1179,24 +1218,52 @@ MEDIA
 }
 
 .article2 {
-    display: flexbox;
     width: 700px;
-    margin: 20px auto;
+    margin: 20px auto 70px;
+}
+
+.art-x2 {
+    display: flex;
+    width: 700px;
+}
+
+.art-x2 .art-rm {
+    display: none;
+}
+
+.art1 { 
+    display: block;
+}
+
+.art-name2 {
+    text-transform: uppercase;
+    margin: 0 10px 0 20px; 
+    font-size: 2.5em;
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    text-align: center;
+    background-color: var(--pink);
+    width: 50px;
 }
 
 .art-img2 {
     display: block;
-    max-width: 400px;
+    max-width: 500px;
     object-fit: fill;
-    margin: -20px auto;
+    margin: auto;
 }
 
-.p-cosmos, .art-p2 {
-    width: 620px;
+.p-cosmos {
+    width: 630px;
     text-align: center;
     margin: 0 auto 20px;
-}
+} 
 
+.art-p2 {
+    width: 600px;
+    text-align: left;
+    margin-left: 5px;
+}
 
 
 /*EXPLORE*/
@@ -1534,6 +1601,10 @@ MEDIA
     width: 26%;
 }
 
+.content-img::after {
+    margin-top: 60px;
+}
+
 .head1, .head2 {
     font-size: 1.6em;
     margin: -5px 0 0 150px;
@@ -1546,6 +1617,7 @@ MEDIA
 
 .img2-p {
     font-size: 1.2em;
+    width: 270px;
 }
 
 .news2 {
@@ -1608,6 +1680,10 @@ MEDIA
     margin: auto;
 }
 
+.head-es {
+    margin-bottom: 30px;
+}
+
 .article {
     max-width: 1000px;
     margin: auto;
@@ -1628,13 +1704,43 @@ MEDIA
     font-size: 1.2em;
 }
 
-.head-es, .art-name2 {
+.art-name2 {
+    background-color: var(--black);
+    color: var(--pink);
+}
+
+.head-es {
     font-size: 1.4em;
+}
+
+.art-name2 {
+    font-size: 2.6em;
+}
+
+.art-x2 {
+    width: 800px;
+    height: 550px;
+    border-left: 1px solid var(--black);
+}
+
+.art-x2 .art-rm {
+    display: none;
+}
+
+.art-p2  {
+    width: 600px;
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 30px;
 }
 
 .art-img {
     min-width: 220px;
     height: 140px;
+}
+.art-img2 {
+    width: 500px;
+    margin-bottom: -30px;
 }
 
 .article2 {
@@ -1642,12 +1748,11 @@ MEDIA
     margin: 20px auto 60px;
 }
 
-.p-cosmos, .art-p2 {
+.p-cosmos {
     font-size: 1.2em;
+    margin-top: 20px;
     width: 750px;
 }
-
-
 
 
 /*EXPLORE*/
@@ -1835,23 +1940,34 @@ MEDIA
 }
 
 
+/*FOOTER*/
 
-
+.footer1 {
+    height: 120px;
 }
 
-/*
-
-
-
-
-
-
-
-
-.read-p1 {
-    width: 290px;
+.logo1 {
+    margin: 10px 30px;
+    width: 70px;
+    height: 70px;
 }
 
+.top2 {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.csm2 {
+    font-size: 1em;
+}
+
+.foot2 {
+    margin-right: 30px;
+}
+
+.logo2 {
+    width: 50px;
+}
 
 
 
