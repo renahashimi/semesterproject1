@@ -1,0 +1,66 @@
+
+/*QUOTES*/
+
+.quote1, .quote2 {
+    text-align: center;
+    margin: auto;
+    font-style: italic;
+    color: var(--black);    
+    border: 2px solid var(--pink);
+    border-radius: 0 60px;
+    width: 350px;
+    margin: 50px auto 40px;
+}
+
+.q1, .q2 {
+    font-family: 'Beth Ellen', cursive;
+    font-size: 1em;
+    margin: 40px auto;
+    width: 300px;
+    line-height: 2em;
+
+}
+
+.q1::before, .q2::before {
+    content: "\“";
+    display: block;
+    text-align: left;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--pink);
+}
+
+.q1-2, .q2-2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    text-align: right;
+    margin: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+
+.quote1, .quote2 {
+    width: 800px;
+   
+}
+
+.q1, .q2 {
+    width: 790px; 
+    font-size: 1.2em;
+}
+
+.q1-2, .q2-2 {
+    font-size: 1.2em;
+}
+
+
+
+}
+
+
+
