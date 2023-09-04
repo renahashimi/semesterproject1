@@ -736,7 +736,7 @@ GET INVOLVED
 */
 
 .content-inv, .content-inv1, .content-inv2 {
-    width: 350px;
+    min-width: 350px;
     text-align: left;
     margin: 20px auto;
 }
@@ -1403,6 +1403,8 @@ MEDIA
 }
 
 
+
+
 /*"READ MORE"-BUTTON PAGE*/
 
 .content-read {
@@ -1525,6 +1527,7 @@ MEDIA
 
 .ex-p {
     font-size: 1.3em;
+    max-width: 500px;
 }
 
 .img1 {
