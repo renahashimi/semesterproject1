@@ -28,6 +28,7 @@ ALL PAGES
     text-align: center;
     padding: 20px 0;
 }
+
 nav a, nav li {
     text-decoration: none;
     list-style: none;
@@ -43,6 +44,15 @@ p {
     font-family: 'Rajdhani', sans-serif;
     font-size: 1.1em;
     line-height: 1.3em;
+}
+
+.separate {
+    content: "";
+    display: flex;
+    width: 85%;
+    height: 2px;
+    margin: 50px auto 10px;
+    background-color: var(--black);
 }
 
 
@@ -189,8 +199,8 @@ HOME
     display: block;
     background-image: url(images/scott-webb.jpg);
     width: 100%;
-    height: 220px;
-    background-size: cover;
+    height: 250px;
+    background-size: contain;
     background: no-repeat;    
     margin-top: 0px;
     margin-bottom: 15px;    
@@ -255,8 +265,6 @@ HOME
     min-height: 190px;
 }
 
-
-
 .ake {
     font-family: 'Beth Ellen', cursive;
     text-align: center;
@@ -315,7 +323,7 @@ HOME
 
 .content-night {
     background-color: var(--black);
-    max-width: 400px;
+    max-width: 360px;
     display: block;
     margin: 5px auto;
 }
@@ -330,7 +338,7 @@ HOME
 
 .img-nitm {
     display: block;
-    width: 390px;
+    width: 360px;
     height: 400px;
     object-fit: cover;
     margin: -30px auto 10px;
@@ -352,7 +360,7 @@ HOME
 }
 
 .turbine {
-    width: 390px;
+    width: 360px;
     margin: 40px auto;
     position: relative;
     justify-content: center;
@@ -360,8 +368,8 @@ HOME
 }
 
 .turb-img {
-    width: 100%;
-       margin: 10px auto;
+    width: 360px;
+    margin: 10px auto;
 }
 
 .turb-p h3 {  
@@ -372,13 +380,13 @@ HOME
     font-size: 1.2em;
     text-transform: uppercase;
     text-align: right;
-    margin: 30px 25px 0 80px;
+    margin: 30px 40px 0 80px;
 }
 
 .remo {
     position: absolute;
     top: 70%;
-    left: 63%;
+    left: 60%;
     color: var(--white);
     border: 2px solid var(--white);
     border-radius: 20px 0;
@@ -416,6 +424,14 @@ HOME
     font-size: 1em;
     font-weight: 300;
     line-height: 1.2em;
+}
+
+.d-t {
+    color: var(--pink);
+    margin: 20px 10px;
+    font-weight: bolder;
+    line-height: -20%;
+    text-align: left;
 }
 
 
@@ -509,7 +525,7 @@ EXHIBITION SPACE
 }
 
 .art-x {
-    border: 1px solid var(--black);
+    border: 3px solid var(--pink);
     margin: 20px 0;
 }
 
@@ -517,14 +533,15 @@ EXHIBITION SPACE
     text-decoration: none;
 }
 
-.art-x1, .art-x2 {
-    border: 1px solid var(--black);
+.art-x1 {
+    border: 1px solid var(--pink);
     margin: 20px 0;
 }
 
 .art-x2 {
     width: 90%;
     margin: 0 auto 70px;
+    border: 3px solid var(--black);
     border-top: 10px double var(--black);
 }
 
@@ -537,22 +554,23 @@ EXHIBITION SPACE
     font-size: 1.2em;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 400; 
+    font-weight: 800; 
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
     margin: 20px;
-    color: var(--white);
+    color: var(--black);
 }
 
 .art-name2 {
     font-size: 1.8em;
+
     color: var(--black);
     font-weight: bolder;
 }
 
 .art-name { 
-    background-color: var(--black);
+    background-color: var(--pink);
 }
 
 .art-p, .art-p2 {
@@ -571,18 +589,10 @@ EXHIBITION SPACE
     width: 120px;
     padding: 4px 5px;
     text-align: center;
-    margin: 20px auto 30px;
+    margin: 40px auto 30px;
     text-decoration: none;
 }
 
-.separate {
-    content: "";
-    display: flex;
-    width: 85%;
-    height: 2px;
-    margin: 50px auto 10px;
-    background-color: var(--black);
-}
 
 
 
@@ -593,15 +603,15 @@ EXPLORE
 */
 
 .content-explore2 {
-    max-width: 390px;
+    max-width: 350px;
     margin: 0 auto;
 }
 
 .content-exp {
     display: block;
-    width: 80%;
+    width: 70%;
     margin: 20px auto 50px;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     border-top: 3px solid var(--black);
     border-bottom: 3px solid var(--pink);
@@ -641,7 +651,7 @@ EXPLORE
 }
 
 .box2 {
-    width: 320px;
+    min-width: 320px;
     border: 3px solid var(--pink);
     border-radius: 45px 0;
     text-align: center;
@@ -649,7 +659,7 @@ EXPLORE
 }
 
 .box3 {
-    width: 390px;
+    min-width: 350px;
     margin: 10px auto;
 }
 
@@ -665,7 +675,7 @@ EXPLORE
 .box-p3, .box-p4 {
     border-left: 1px solid var(--pink);
     border-right: 1px solid var(--pink);
-    padding: 20px;
+    padding: 10px;
 }
 
 .box-p2 {
@@ -674,6 +684,7 @@ EXPLORE
 
 .box-p3 {
     margin: 20px;
+    margin-bottom: 0;
 }
 
 .box-p4 {
@@ -716,7 +727,7 @@ VISIT
 */
 
 .content-visit {
-    width: 380px;
+    width: 360px;
     justify-content: center;
     margin: 0 auto;
     text-align: center;
@@ -724,14 +735,20 @@ VISIT
 
 .visit-box {
     border: 1px solid var(--black);
+    border-radius: 10px;
     margin: 20px 15px;
 }
 
 .visit-head, .visit-head2 {
     text-transform: uppercase;
     font-size: 1.1em;
+    width: 70%;
+    height: 20px;
+    -webkit-text-stroke: 1px var(--black);
     color: var(--pink);
+    letter-spacing: 0.1em;
     margin-bottom: 30px;
+    margin: 10px auto;
 }
 
 .visit-head2 {
@@ -800,9 +817,10 @@ GET INVOLVED
 */
 
 .content-inv, .content-inv1, .content-inv2 {
-    width: 350px;
+    min-width: 330px;
     text-align: left;
     margin: 20px auto;
+    padding: 0 40px;
 }
 
 .content-inv, .content-inv1 {
@@ -829,9 +847,9 @@ GET INVOLVED
 .inv-head {
     border-top: 7px double var(--pink);
     margin: 20px;
-  
     padding: 30px;
 }
+
 .inv .inv-img, .inv1 .inv-img1 {
     width: 50%;
     float: left;
@@ -846,6 +864,18 @@ GET INVOLVED
     object-fit: cover;
     border-radius: 50%; 
     margin: 0 auto 40px;
+}
+
+.inv-p {
+    font-size: 1em;
+}
+
+.inv-px {    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    font-weight: bold;
+    padding: 0 0 15px 0;
 }
 
 
@@ -1024,9 +1054,10 @@ MEDIA
 /*HOME*/
 
 .mus1 {
+    width: 100%;
     height: 290px;  
-    object-fit: cover;
-    object-position: 50% 45%;
+    object-fit:unset;
+   
     
 }
 
@@ -1124,7 +1155,7 @@ MEDIA
 .content-night {
     display: block;
     background-color: var(--white);
-    border: 2px solid var(--pink);
+    border: 3px solid var(--black);
     width: 270px;
     height: 550px;
     margin-left: 0;
@@ -1167,7 +1198,7 @@ MEDIA
 }
 
 .turbine {
-    border: 2px solid var(--pink);
+    border: 3px solid var(--black);
     background-color: var(--white);
     width: 300px;
     height: 550px;
@@ -1285,7 +1316,7 @@ MEDIA
 .art-name {
     font-size: 1em;
     height: 20px;
-    margin: 12px 0;
+    margin: 10px 0;
     background-color: var(--pink);
 }
 
@@ -1306,7 +1337,7 @@ MEDIA
 
 .art-rm {
     margin-right: 40px;
-    margin-top: 40px;
+    margin-top: 15px;
 }
 
 .art1 { 
@@ -1438,7 +1469,6 @@ MEDIA
     display: block;
     min-width: 740px;
     justify-content: center;
-    font-size: 1em;
     margin: 30px auto 30px;
 }
 
@@ -1460,7 +1490,7 @@ MEDIA
 .visit-box {
     width: 250px;
     margin: 5px;
-    padding: 0 15px;
+    padding: 0 15px 20px;
 }
 
 .visit-p {
@@ -1482,7 +1512,8 @@ MEDIA
 }
 
 .visit-head {
-    margin: 20px 0 0;
+    width: 100%;
+    margin: 20px auto;
 }
 
 .name, .email, .phone {
@@ -1505,8 +1536,9 @@ MEDIA
 }
 
 .visit-head2 {
+    width: 100%;
     padding: 5px;
-    margin: 15px 0;
+    margin: 15px auto;
 }
 
 
@@ -1516,6 +1548,7 @@ MEDIA
     display: flex;
     justify-content: space-between;
     margin: 40px auto 50px auto;
+    padding: 0 20px;
     width: 700px;
     border-left: 2px solid var(--pink);
     border-bottom: 1px solid var(--black);
@@ -1529,8 +1562,6 @@ MEDIA
     width: 250px;
     height: 200px;
     margin: auto 20px auto 20px;
-    justify-content: center;
-    align-items: center;
     border-right: 5px solid var(--pink);
 } 
 
@@ -1685,7 +1716,8 @@ MEDIA
 }
 
 .img1 {
-    width: 26%;
+    width: 23%;
+    margin-top: 35px;
 }
 
 .content-img::after {
@@ -1709,7 +1741,7 @@ MEDIA
 
 .news2 {
     margin: 20px auto 50px;
-    width: 800px;
+    width: 850px;
 }
 
 .content-night {
@@ -1723,13 +1755,14 @@ MEDIA
 }
 
 .img-nitm {
-    width: 370px;
+    width: 360px;
     height: 290px;
     object-fit: cover;
 }
 
 .text-p {
-    font-size: 1.2em;
+    font-size: 1.25em;
+    text-align: center;
 }
 
 .turbine {
@@ -1745,17 +1778,20 @@ MEDIA
 
 .turb-p, .turb-p2 {
     font-size: 1.1em;
-    padding: 5px;
+    text-align: center;
+    padding: 4px;
 }
 
 .content-vspa {
-    width: 800px;
+    width: 850px;
 }
 
 .vspa-p {
-    width: 350px;
-    font-size: 1.2em;
+    width: 400px;
+    font-size: 1.3em;
+    position: relative;
 }
+
 
 
 
@@ -1806,18 +1842,20 @@ MEDIA
 
 .art-name2 {
     font-size: 2.6em;
-    height: 450px;
+    height: 470px;
 }
 
 .art-x2 {
     width: 800px;
-    height: 470px;
+    height: 480px;
     border: none;
     border-top: 10px double var(--black);
+    border-bottom: 2px solid var(--pink);
 }
 
 .art-rm {
-    margin-top: -5px;
+    margin: auto;
+    margin-top: 15px;
 }
 
 .art-p2  {
@@ -1830,11 +1868,15 @@ MEDIA
 .art-img {
     min-width: 220px;
     height: 140px;
+
 }
 
 .art-img2 {
-    max-width: 500px;
-    margin-bottom: -30px;
+    max-width: 600px;
+    height: 350px;
+    object-fit: fill;
+    margin-bottom: -40px;
+
 }
 
 .article2 {
@@ -1847,6 +1889,13 @@ MEDIA
     margin-top: 20px;
     width: 750px;
 }
+
+.art-x2 .art-rm {
+    float: right;
+    margin: 0 30px -20px 0;
+    
+}
+
 
 
 
@@ -1954,7 +2003,7 @@ MEDIA
     display: block;
     width: 310px;  
     height: 700px;
-    margin: -45px 5px;
+    margin: -25px 5px;
     object-fit: cover;    
 }
 

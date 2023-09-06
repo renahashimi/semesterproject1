@@ -8,8 +8,8 @@
     color: var(--black);    
     border: 2px solid var(--pink);
     border-radius: 0 60px;
-    min-width: 340px;
-    margin: 30px;
+    min-width: 300px;
+    margin: 30px 10px;
     justify-content: center;
 }
 
@@ -17,7 +17,7 @@
     font-family: 'Indie Flower', cursive;
     font-size: 1.2em;
     margin: auto;
-    padding: 20px 30px;
+    padding: 20px 10px 15px;
     justify-content: center;
     line-height: 1.8em;
     letter-spacing: 0.1em;
