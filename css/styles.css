@@ -1162,8 +1162,6 @@ MEDIA
     width: 270px;
     height: 550px;
     margin-left: 0;
-    border-left: 4px double var(--black);
-    border-left-width: 10px;
 }
 
 .head3 {
@@ -1206,8 +1204,6 @@ MEDIA
     width: 300px;
     height: 550px;
     margin: 5px 0 0; 
-    border-right: 4px double var(--black);
-    border-right-width: 10px;
 }
 
 .turb-img {
