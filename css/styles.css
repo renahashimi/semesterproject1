@@ -500,14 +500,16 @@ EXHIBITION SPACE
     display: grid;
     grid-template-rows: auto auto;
     justify-content: center;
+    
 }
 
 .px1 {
     display: block;
+    width: 330px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.2em; 
+    font-size: 1.3em; 
     border-left: 4px solid var(--pink);
-    margin: 80px 20px -20px;
+    margin: 80px auto -20px;
     padding-left: 10px;
     font-weight: bolder;
 }
@@ -641,22 +643,22 @@ EXPLORE
 }
 
 .box1 {
-    background-color: #154e71;
-    color: var(--white);
+    background-color: var(--white);
+    border: 6px dotted var(--pink);
+    color: var(--black);
     margin: auto;
     padding: 5px 10px;
     text-align: center;   
 }
 
 .box-p {
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 2rem;
 }
 
 .box2 {
     min-width: 320px;
     border: 1px solid var(--pink);
-    border-radius: 25px 0;
     text-align: center;
     margin: 20px auto;
 }
@@ -668,7 +670,6 @@ EXPLORE
 
 .box-img1, .box-img2 {
     width: 100%;
-    border-radius: 20px 0;
 }
 
 .box-img1 {
@@ -683,6 +684,7 @@ EXPLORE
 
 .box-p2 {
     margin: 10px 5px;
+    line-height: 1.5em;
 }
 
 .box-p3 {
@@ -1423,6 +1425,7 @@ MEDIA
 
 .box2 {
     height: 440px;
+    width: 350px;
 }
 
 .box3 {
@@ -1432,7 +1435,7 @@ MEDIA
 }
 
 .box-img1 {
-    margin-top: 37px;
+    margin-top: 18px;
 }
 
 .box-img3 {
@@ -1724,15 +1727,24 @@ MEDIA
     display: block;
     font-family:Georgia, 'Times New Roman', Times, serif;
     max-width: 1300px;
-    font-size: 1.8em;
+    font-size: 1.7em;
     text-align: center;
     line-height: 1.9em;
     letter-spacing: 1.5px;
-    margin: 50px auto;
-    padding: 20px 60px;
-    border-top: 10px double var(--black);
-    border-bottom: 10px double var(--black);
+    margin: 20px auto 100px;
+    padding: 10px 60px;
+}
 
+.ex-p3::after { 
+    content: "";
+    position: absolute;
+    background-color: var(--black);
+    inset: 0;
+    transform: skewY(6deg);
+    z-index: -1;
+    height: 1200px;
+    margin-top: 20px;
+    opacity: 0.1;
 }
 
 .word1, .word1 a {
@@ -1740,7 +1752,6 @@ MEDIA
     font-size: 1.1em;
     color: var(--pink);
     font-weight: bolder;
-
 }
 
 .img1 {
@@ -1754,6 +1765,7 @@ MEDIA
 
 .ake {
     font-size: 1.8em;
+    margin-top: 50px;
 }
 
 .head1, .head2 {
@@ -1836,7 +1848,7 @@ MEDIA
 /*EXHIBITION*/
 
 .content-cosmos {
-    max-width: 1400px;
+    max-width: 1600px;
     justify-content: center;
     margin: auto;
 }
@@ -1957,19 +1969,18 @@ MEDIA
 }
 
 .box1 {
-    border-radius:  0 25px;
     width: 390px;
     font-size: 1.2em;
 }
 
 .box2 {
-    width: 400px;
+    width: 420px;
     height: 520px;
     font-size: 1.2em
 }
 
 .box-img1 {
-    margin-top: 45px;
+    margin-top: 2px;
 }
 
 .box-img4 {
@@ -2172,7 +2183,68 @@ MEDIA
 }
 
 
-@media screen and (min-width: 1550px) {
+@media screen and (min-width: 1500px) {
+
+
+
+
+/*HOME*/
+
+
+.mus1 {
+    height: 500px;  
+    object-fit: fill;
+}
+
+.expl-text {
+    width: 500px;
+    height: 330px;
+}
+
+.img2 {
+    min-width: 40%;
+    object-fit: cover;
+}
+.img2-p {
+    margin: auto 25px;
+}
+
+.ex-p, .ex-p3 {
+    font-size: 1.8em;
+}
+
+.head1, .head2 {
+    font-size: 2em;
+}
+
+
+
+
+
+
+/*EXHIBITION*/
+
+.article {
+    min-width: 1100px;
+}
+
+.art-x {
+    min-width: 280px;
+    height: 490px;
+    margin-bottom: 50px;
+}
+article
+.art-rm {
+    margin-top: 30px;
+}
+
+.px1 {
+    font-size: 1.6em;
+    margin: 40px 0 20px 60px;
+}
+
+
+
 
 
 /*VISIT*/
