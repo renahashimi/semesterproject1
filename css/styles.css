@@ -1660,7 +1660,7 @@ MEDIA
 .foot-info {
     display: block;
     height: 90px;
-    margin: ;
+  
 }
 
 .foot-info h4 {
@@ -1740,18 +1740,18 @@ MEDIA
 }
  
 .ex-p {
-    font-size: 1.7em;
+    font-size: 1.4em;
 }
 
 .ex-p3 {
     display: block;
     font-family:Georgia, 'Times New Roman', Times, serif;
     max-width: 1300px;
-    font-size: 1.3em;
+    font-size: 1.4em;
     text-align: center;
     line-height: 1.9em;
     letter-spacing: 1.5px;
-    margin: 20px auto 100px;
+    margin: 20px auto 150px;
     padding: 10px 60px;
 }
 
@@ -2159,7 +2159,7 @@ MEDIA
 }
 
 .read-p {
-    min-width: 700px;
+    max-width: 900px;
     font-size: 1.3em;
     padding-left: 20px;
 }
@@ -2175,6 +2175,7 @@ MEDIA
 
 .footer1 {
     height: 120px;
+    grid-template-columns: auto 1fr 300px auto;
 }
 
 .logo1 {
@@ -2206,8 +2207,6 @@ MEDIA
 @media screen and (min-width: 1500px) {
 
 
-
-
 /*HOME*/
 
 
@@ -2231,6 +2230,10 @@ MEDIA
 
 .ex-p, .ex-p3 {
     font-size: 1.8em;
+}
+
+.ex-p3::after {
+    height: 1300px;
 }
 
 .head1, .head2 {
