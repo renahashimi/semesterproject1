@@ -385,6 +385,7 @@ HOME
 }
 
 .turb1 .d-t {
+    color: var(--pink);
     margin-top: 90px;
     font-size: 1em;
 }
@@ -460,9 +461,16 @@ EXHIBITION SPACE
     color: var(--white);
     padding: 30px 0 0;
     margin-top: 10px;
-    font-size: 1.5em;
-    letter-spacing: 0.5em;
 }
+
+.content-cosmos h2, .pale, .art-name2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 
 .content-cosmos img {
     width: 100%;
@@ -477,13 +485,6 @@ EXHIBITION SPACE
     font-size: 1.1em;
     font-weight: 300;
     text-align: center;
-}
-
-.head-es {
-    font-size: 1.2em;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 400;
 }
 
 .rm-cosmos {
@@ -537,10 +538,6 @@ EXHIBITION SPACE
 .pale {
     display: block;
     color: var(--pink);
-    text-transform: uppercase;
-    font-size: 1.5em;
-    letter-spacing: 0.3em;
-    text-align: center;
     padding: 10px 0;
 }
 
@@ -605,7 +602,7 @@ EXHIBITION SPACE
     height: auto;
 }
 
-.art-name, .art-name1, .art-name2 {
+.art-name, .art-name1 {
     font-size: 1.2em;
     text-align: center;
     text-transform: uppercase;
@@ -618,8 +615,6 @@ EXHIBITION SPACE
 }
 
 .art-name2 {
-    font-size: 1.8em;
-
     color: var(--black);
     font-weight: bolder;
 }
@@ -697,8 +692,9 @@ EXPLORE
 }
 
 .box1 {
+    width: 320px;
     background-color: var(--white);
-    border: 6px dotted var(--pink);
+    border: 4px dotted var(--pink);
     color: var(--black);
     margin: auto;
     padding: 5px 10px;
@@ -879,7 +875,7 @@ GET INVOLVED
     min-width: 330px;
     text-align: left;
     margin: 20px auto;
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
 .content-inv, .content-inv1 {
@@ -904,7 +900,6 @@ GET INVOLVED
 }
 
 .inv-head {
-    border-top: 7px double var(--pink);
     margin: 20px;
     padding: 30px;
 }
@@ -1006,7 +1001,7 @@ FOOTER
 
 .footer1 {
     display: grid;
-    grid-template-columns: auto 1fr 180px auto;
+    grid-template-columns: auto 1fr auto auto;
     background-color: var(--pink);
     height: 80px;
     padding: 15px 0 20px;
@@ -1302,7 +1297,6 @@ MEDIA
     margin: 0;
     padding-bottom: 5px;
     text-align: center;
-    color: var(--black);
 }
 
 .remo {
@@ -1373,7 +1367,7 @@ MEDIA
 
 .dino {
     width: 690px;
-    height: 305px;
+    height: 300px;
     margin: 70px auto;
 }
 
@@ -1718,6 +1712,7 @@ MEDIA
 
 .footer1 {
     height: 120px;
+    grid-template-columns: auto 1fr 180px auto;
 }
 
 .logo1 {
@@ -1746,7 +1741,6 @@ MEDIA
 .foot-info {
     display: block;
     height: 90px;
-  
 }
 
 .foot-info h4 {
@@ -1977,7 +1971,7 @@ MEDIA
 
 .dino {
     width: 800px;
-    height: 350px;
+    height: 345px;
     margin: auto;
 }
 
@@ -1996,7 +1990,7 @@ MEDIA
 }
 
 .pale-p {
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 .art-x {
@@ -2287,7 +2281,7 @@ MEDIA
 /*FOOTER*/
 
 .footer1 {
-    height: 120px;
+    height: 130px;
     grid-template-columns: auto 1fr 300px auto;
 }
 
@@ -2312,6 +2306,10 @@ MEDIA
 
 .logo2 {
     width: 50px;
+}
+
+.foot-info {
+    margin-top: 20px;
 }
 
 }
