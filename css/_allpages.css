@@ -21,6 +21,7 @@ ul {
 
 p {
     font-family: 'Rajdhani', sans-serif;
+    font-size: 1em;
 }
 
 #menu-checkbox, .links2, #back  {
@@ -48,3 +49,11 @@ p {
     margin: 50px auto 10px;
     background-color: var(--black);
 }
+
+@media screen and (min-width: 768px) {
+
+p {
+    font-size: 1.1em;
+}
+}
+

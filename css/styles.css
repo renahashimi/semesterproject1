@@ -222,7 +222,6 @@ HOME
 .turb1 .d-t {
     color: var(--pink);
     margin-top: 90px;
-    font-size: 1em;
 }
 
 .remo {
@@ -271,6 +270,7 @@ HOME
 .d-t {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--pink);
+    font-size: 1.15em;
     margin: 20px 10px;
     font-weight: bold;
     line-height: -20%;
@@ -940,7 +940,7 @@ MEDIA
     background-color: var(--white);
     border: 1px solid var(--pink);
     width: 270px;
-    height: 550px;
+    height: 600px;
     margin-left: 0;
 }
 
@@ -959,7 +959,7 @@ MEDIA
 .img-nitm {
     background-color: var(--black);
     width: 270px;
-    height: 260px;
+    height: 270px;
     margin: 0;
     object-fit: co;
 }
@@ -982,14 +982,17 @@ MEDIA
     border: 1px solid var(--pink);
     background-color: var(--white);
     width: 300px;
-    height: 550px;
+    height: 600px;
     margin: 5px 0 0; 
 }
 
 .turb-img {
     width: 300px;
+    height: 240px;
+    object-fit: cover;
+    object-position: 0 50%;
     margin-left: -5px;
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 .turb-p, .turb-p2 {
@@ -1013,7 +1016,7 @@ MEDIA
     font-size: 1.2em;
     text-align: center;
     margin: 10px 0;
-    padding: 5px 0 20px;
+    padding: 10px 0 20px;
 }
 
 .turb1 .d-t {
@@ -1033,7 +1036,7 @@ MEDIA
     background-color: var(--white);
     border: 4px solid var(--pink);
     width: 650px;
-    margin: 10px auto 80px;
+    margin: 30px auto 80px;
 }
 
 .head5 { 
@@ -1059,8 +1062,9 @@ MEDIA
     margin: 0 -40px;
 }
 
-.d-t {
+.turb1 .d-t {
     margin: 0;
+    font-size: 1.3em;
 }
 
 
@@ -1210,7 +1214,7 @@ MEDIA
 }
 
 .content-exp {
-    width: 70%;
+    width: 850px;
 }
 
 .expl-name {
@@ -1243,6 +1247,7 @@ MEDIA
 .box2 {
     height: 440px;
     width: 350px;
+    margin: 25px 0;
 }
 
 .box3 {
@@ -1252,7 +1257,7 @@ MEDIA
 }
 
 .box-img1 {
-    margin-top: 18px;
+    margin-top: 3px;
 }
 
 .box-img3 {
@@ -1275,6 +1280,10 @@ MEDIA
 .ex1 {
     width: 95%;
     justify-content: center;
+}
+
+.box-p2 {
+    margin-top: 20px;
 }
 
 .box-p3, .box-p4  {
@@ -1527,13 +1536,13 @@ MEDIA
 }
 
 .news2 {
-    margin: 20px auto 50px;
+    margin: 20px auto 60px;
     width: 850px;
 }
 
 .content-night {
     width: 370px;
-    height: 670px;
+    height: 740px;
 }
 
 .head3 {
@@ -1554,7 +1563,7 @@ MEDIA
 
 .turbine {
     width: 400px;
-    height: 670px;
+    height: 734px;
 }
 
 .turb-img {
@@ -1801,6 +1810,11 @@ MEDIA
 
 .contact-form {
     width: 95%;
+}
+
+.contact-p {
+    font-size: 1.02em;
+    margin: 0 30px 20px;
 }
 
 .visit1 .visit-box {
