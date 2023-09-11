@@ -28,13 +28,12 @@ p {
 }
 
 .back-to-top {
-    text-align: right;
-    margin-right: 30px;
+    text-align: center;
+    margin: 80px auto 30px;
 }
 
 .btt {
     display: inline-flex;
-    margin: 30px auto 40px;
     border: 2px solid var(--black);
     background-color: var(--pink);
     padding: 20px;

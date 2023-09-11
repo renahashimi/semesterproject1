@@ -372,7 +372,7 @@ EXHIBITION SPACE
 .pale {
     display: block;
     color: var(--pink);
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .pale-p, .pale-p2 {
@@ -380,7 +380,7 @@ EXHIBITION SPACE
     width: 300px;
     text-align: center;
     color: var(--white);
-    margin: 20px;
+    margin: 30px 20px 0;
 }
 
 .pale-p {
@@ -776,7 +776,7 @@ GET INVOLVED
 */
 
 .content-read {
-    width: 100%;
+    width: 90%;
     padding: 20px 0;
     margin: 30px 0 -30px 0;
     border-top: 1px solid var(--pink);
@@ -1092,7 +1092,7 @@ MEDIA
 
 .dino {
     width: 690px;
-    height: 300px;
+    height: 305px;
     margin: 70px auto;
 }
 
@@ -1101,16 +1101,26 @@ MEDIA
     width: 100%;
 }
 
+.pale {
+    text-align: right;
+    padding-right: 30px;
+    font-size: 1.5em;
+    -webkit-text-stroke: 1px var(--black);
+    background-color: var(--white);
+    border: 2px solid var(--pink);
+}
+
 .pale-p {
-    font-size: 1.2em
+    font-size: 1.1em;
 }
 
 .pale-p2 {
-    font-size: 1.1em; 
+    font-size: 1em; 
 }
 
 .dino2 img {
     width: 350px;
+    margin-top: -20px;
 }
 
 .art-x {
@@ -1427,6 +1437,7 @@ MEDIA
 }
 
 .cr-img {
+    width: 550px;
     height: 300px;
     margin: -200px 60px 0;
 }
@@ -1611,18 +1622,22 @@ MEDIA
     width: 100%;
 }
 
-.dino-p {
-    margin-left: -0px;
+
+.pale {
+   text-align: center;
+   font-size: 2em;
+   padding: 20px 0;
+   letter-spacing: 0.8em;
 }
 
 .dino2 img {
     width: 500px;
-    height: 283px;
-    margin-left: -0px;
+    height: 263px;
+    margin-top: -25px;
 }
 
 .pale-p {
-    margin-top: 0px;
+    margin-top: 40px;
 }
 
 .art-x {
@@ -1897,7 +1912,7 @@ MEDIA
 }
 
 .read-p {
-    max-width: 900px;
+    max-width: 700px;
     font-size: 1.3em;
     padding-left: 20px;
 }
