@@ -1,0 +1,51 @@
+
+.h1-name{
+    font-family: "Audiowide", sans-serif;
+    background-color: var(--pink);
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav a, nav li, .btt {
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+p {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#menu-checkbox, .links2, #back  {
+    display: none;
+}
+
+.back-to-top {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.btt {
+    display: inline-flex;
+    margin: 30px auto 40px;
+    border: 2px solid var(--black);
+    background-color: var(--pink);
+    padding: 20px;
+    transition: 0.2s ease-out;
+}
+
+.separate {
+    content: "";
+    display: flex;
+    width: 85%;
+    height: 2px;
+    margin: 50px auto 10px;
+    background-color: var(--black);
+}

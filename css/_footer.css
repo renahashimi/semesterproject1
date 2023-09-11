@@ -1,0 +1,169 @@
+.footer1 {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    background-color: var(--pink);
+    height: 80px;
+    padding: 15px 0 20px;
+}
+
+.logotext2 {
+    display: block;
+}
+
+.logo1 {
+    display: flex;
+    padding: 2px;
+    margin: 5px 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.top2 {
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.65em;
+    margin-top: 10px;
+}
+
+.csm2 {
+    font-size: 0.6em;
+    margin-top: -8px;
+
+}
+
+.foot2 {
+    display: flexbox;
+    margin-right: 20px;
+}
+
+.logo2 {
+    display: flex;
+    width: 20px;
+    margin: 50px 2px;
+    float: right;
+}
+
+.foot-info {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+.footer1 {
+    height: 120px;
+    grid-template-columns: auto 1fr 180px auto;
+}
+    
+.logo1 {
+    margin: 5px 20px;
+    width: 60px;
+    height: 60px;
+}
+    
+.top2 {
+    font-size: 1em;
+}
+    
+.csm2 {
+    font-size: 0.9em;
+}
+    
+.foot2 {
+    display: flexbox;
+    margin-right: 20px;
+}
+    
+.logo2 {
+    width: 40px;
+}
+    
+.foot-info {
+    display: block;
+    height: 90px;
+}
+    
+.foot-info h4 {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+    
+.foot-info p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    line-height: 0.3em;
+    letter-spacing: 0.1em;
+}
+
+}
+
+@media screen and (min-width: 1025px) {
+
+.footer1 {
+    height: 130px;
+    grid-template-columns: auto 1fr 300px auto;
+}
+    
+.logo1 {
+    margin: 10px 30px;
+    width: 70px;
+    height: 70px;
+}
+    
+.top2 {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+    
+.csm2 {
+    font-size: 1em;
+}
+    
+.foot2 {
+    margin-right: 30px;
+}
+    
+.logo2 {
+    width: 50px;
+}
+    
+.foot-info {
+    margin-top: 20px;
+}
+
+}
+
+@media screen and (min-width: 1500px) {
+
+.footer1 {
+    height: 150px;
+}
+
+.logo1 {
+    width: 80px;
+    height: 80px;
+}
+
+.top2 {
+    font-size: 1.3em;
+}
+
+.csm2 {
+    font-size: 1.2em;
+}
+
+.foot2 {
+    margin-right: 30px;
+}
+
+.foot-info h4, .foot-info p {
+    font-size: 1.1em;
+}
+
+.logo2 {
+    width: 50px;
+}
+
+
+}
