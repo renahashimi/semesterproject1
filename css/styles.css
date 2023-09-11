@@ -326,6 +326,10 @@ HOME
     margin: 5px auto;
 }
 
+.content-night .d-t {
+    text-align: center;
+}
+
 .head3 {
     font-size: 24px;
     font-weight: 400;
@@ -352,8 +356,8 @@ HOME
     letter-spacing: 0.8px;
     text-align: center;
     font-weight: 300;
-    margin: 0 20px;
-    padding: 15px 0;
+    margin: 0 15px;
+    padding: 10px 0;
     color: var(--white);
 }
 
@@ -362,7 +366,6 @@ HOME
     margin: 40px auto;
     position: relative;
     justify-content: center;
- 
 }
 
 .turb-img {
@@ -370,7 +373,7 @@ HOME
     margin: 10px auto;
 }
 
-.turb-p h3 {  
+.turb-p h3, .turb1 .d-t {  
     position: absolute;
     top: 0;
     right: 0;
@@ -379,6 +382,11 @@ HOME
     text-transform: uppercase;
     text-align: right;
     margin: 30px 40px 0 80px;
+}
+
+.turb1 .d-t {
+    margin-top: 90px;
+    font-size: 1em;
 }
 
 .remo {
@@ -404,7 +412,7 @@ HOME
 
 .head5 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: var(--pink);
+    color: var(--black);
     text-transform: uppercase;
     font-weight: 600;
     margin: 10px 5px;
@@ -513,6 +521,52 @@ EXHIBITION SPACE
     padding-left: 10px;
     font-weight: bolder;
 }
+
+.dino {
+    width: 350px;
+    background-color: var(--black);
+    margin: auto;
+}
+
+.dino2 {
+    display: block;
+    width: 350px;
+    margin: auto;
+}
+
+.pale {
+    display: block;
+    color: var(--pink);
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.3em;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.pale-p, .pale-p2 {
+    display: block;
+    width: 300px;
+    text-align: center;
+    color: var(--white);
+    margin: 20px;
+}
+
+.pale-p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.pale-p2 {
+    padding-bottom: 40px;
+}
+
+.dino2 img {
+    width: 350px;
+    margin: auto;
+}
+
 
 .article {
     display: block;
@@ -1164,7 +1218,7 @@ MEDIA
 .content-night {
     display: block;
     background-color: var(--white);
-    border: 1px solid var(--black);
+    border: 1px solid var(--pink);
     width: 270px;
     height: 550px;
     margin-left: 0;
@@ -1172,9 +1226,9 @@ MEDIA
 
 .head3 {
     font-size: 1.2em;
-    padding: 5px;
+    padding: 5px 0;
     background-color: var(--white);
-    color: var(--pink);
+    color: var(--black);
     font-weight: 600;
 }
 
@@ -1185,7 +1239,7 @@ MEDIA
 .img-nitm {
     background-color: var(--black);
     width: 270px;
-    height: 280px;
+    height: 260px;
     margin: 0;
     object-fit: co;
 }
@@ -1201,11 +1255,11 @@ MEDIA
     text-align: left;
     font-weight: 300;
     padding: 5px 0;
-    color: var(--black);
+    color: var(--bxlack);
 }
 
 .turbine {
-    border: 1px solid var(--black);
+    border: 1px solid var(--pink);
     background-color: var(--white);
     width: 300px;
     height: 550px;
@@ -1215,14 +1269,14 @@ MEDIA
 .turb-img {
     width: 300px;
     margin-left: -5px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .turb-p, .turb-p2 {
     display: block;
     text-align: left;
     font-size: 1em;
-    padding: 5px;
+    padding: 0 5px;
 }
 
 .turb1 {
@@ -1235,11 +1289,20 @@ MEDIA
 
 .turb-p .head4 {  
     position: relative;
-    color: var(--pink);
-    font-size: 1.1em;
+    color: var(--black);
+    font-size: 1.2em;
     text-align: center;
-    margin: 10px auto 30px;
-    padding: 5px;
+    margin: 10px 0;
+    padding: 5px 0 20px;
+}
+
+.turb1 .d-t {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding-bottom: 5px;
+    text-align: center;
+    color: var(--black);
 }
 
 .remo {
@@ -1306,6 +1369,29 @@ MEDIA
     min-width: 660px;
     margin: 10px 0 0 -30px;
     font-size: 1.4em;
+}
+
+.dino {
+    width: 690px;
+    height: 305px;
+    margin: 70px auto;
+}
+
+.dino2 {
+    display: flex;
+    width: 100%;
+}
+
+.pale-p {
+    font-size: 1.2em
+}
+
+.pale-p2 {
+    font-size: 1.1em; 
+}
+
+.dino2 img {
+    width: 350px;
 }
 
 .art-x {
@@ -1746,13 +1832,13 @@ MEDIA
 .ex-p3 {
     display: block;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    max-width: 1300px;
+    max-width: 900px;
     font-size: 1.4em;
     text-align: center;
     line-height: 1.9em;
     letter-spacing: 1.5px;
     margin: 20px auto 150px;
-    padding: 10px 60px;
+    padding: 10px 50px;
 }
 
 .ex-p3::after { 
@@ -1762,7 +1848,7 @@ MEDIA
     inset: 0;
     transform: skewY(6deg);
     z-index: -1;
-    height: 1200px;
+    height: 1100px;
     margin-top: 20px;
     opacity: 0.1;
 }
@@ -1820,13 +1906,13 @@ MEDIA
 
 .img-nitm {
     width: 360px;
-    height: 400px;
+    height: 370px;
     object-fit: cover;
 }
 
 .text-p {
+    margin-top: 15px;
     font-size: 1.25em;
-    text-align: center;
 }
 
 .turbine {
@@ -1844,7 +1930,6 @@ MEDIA
 
 .turb-p, .turb-p2 {
     font-size: 1.1em;
-    text-align: center;
     padding: 4px;
 }
 
@@ -1884,6 +1969,34 @@ MEDIA
 
 .px1 {
     min-width: 840px;
+}
+
+.content-dino {
+    margin: 70px 0;
+}
+
+.dino {
+    width: 800px;
+    height: 350px;
+    margin: auto;
+}
+
+.dino2 {
+    width: 100%;
+}
+
+.dino-p {
+    margin-left: -0px;
+}
+
+.dino2 img {
+    width: 500px;
+    height: 283px;
+    margin-left: -0px;
+}
+
+.pale-p {
+    margin-top: 40px;
 }
 
 .art-x {
@@ -2206,9 +2319,39 @@ MEDIA
 
 @media screen and (min-width: 1500px) {
 
+/*HEADER/NAVIGATION*/
+
+.header1 {
+    height: 160px;
+}
+
+.logo {
+    width: 90px;
+    padding: 20px 0;
+}
+
+.top {
+    font-size: 2em;
+    margin: 45px 40px;
+}
+
+.csm {
+    font-size: 1.7em;
+    margin-top: -40px;
+    margin-left: 40px;
+}
+
+.links1 ul{
+    font-size: 1.3em;
+}
+
+.links1 a {
+    padding: 7px 40px;
+}
+
+
 
 /*HOME*/
-
 
 .mus1 {
     height: 500px;  
@@ -2233,15 +2376,12 @@ MEDIA
 }
 
 .ex-p3::after {
-    height: 1300px;
+    height: 1380px;
 }
 
 .head1, .head2 {
     font-size: 2em;
 }
-
-
-
 
 
 
@@ -2265,8 +2405,6 @@ article
     font-size: 1.6em;
     margin: 40px 0 20px 60px;
 }
-
-
 
 
 
@@ -2311,6 +2449,38 @@ article
 .contact-p {
     font-size: 0.8em;
 }
+
+/*FOOTER*/
+
+.footer1 {
+    height: 150px;
+}
+
+.logo1 {
+    width: 80px;
+    height: 80px;
+}
+
+.top2 {
+    font-size: 1.3em;
+}
+
+.csm2 {
+    font-size: 1.2em;
+}
+
+.foot2 {
+    margin-right: 30px;
+}
+
+.foot-info h4, .foot-info p {
+    font-size: 1.1em;
+}
+
+.logo2 {
+    width: 50px;
+}
+
 
 }
     
