@@ -109,7 +109,7 @@ HEADER/NAVIGATION
 
 .links1 a {
     color: #fff;
-    padding: 8px;
+    padding: 6px;
     text-align: center;
     text-decoration: none;
     list-style: none;
@@ -118,7 +118,7 @@ HEADER/NAVIGATION
 .links1 a::before, .links1 a::after {
     content: "";
     border: 0.5px solid var(--white);
-    margin: 0 4px;
+    margin: 6px;
 }
 
 #menu-checkbox, .links2, #back  {
