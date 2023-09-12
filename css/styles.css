@@ -619,8 +619,8 @@ EXPLORE
 .line {
     content: "";
     border: 6px solid var(--pink);
-    width: 100%;
-    margin: 40px 0;
+    width: 90%;
+    margin: 40px auto;
 }
 
 
