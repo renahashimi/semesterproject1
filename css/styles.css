@@ -722,19 +722,17 @@ GET INVOLVED
 */
 
 .content-inv, .content-inv1, .content-inv2 {
+    display: block;
     width: 95%;
     text-align: left;
     margin: 20px auto;
     padding: 5px;
-    justify-content: center;
 }
 
 .inv, .inv1, .inv2{
-    display: block;
-}
+    justify-content: center;
+    margin: 10px auto;
 
-.content-inv2 {
-    margin-bottom: 50px;
 }
 
 .inv-head, .inv-head1, .inv-head2 {
@@ -746,17 +744,21 @@ GET INVOLVED
     letter-spacing: 0.2em;
 }
 
+.content-inv2 {
+    margin-bottom: 50px;
+}
+
 .inv .inv-img, .inv1 .inv-img1 {
-    width: 50%;
-    float: left;
-    margin: 5px 10px 5px auto;
+    display: block;
+    width: 70%;
+    margin: 10px auto;
     border-radius: 15px;
 }
 
 .inv-img2 {
     display: block;
-    width: 90%;
-    max-width: 250px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 50%; 
     margin: 0 auto 40px;
@@ -765,6 +767,7 @@ GET INVOLVED
 .inv-p {
     width: 85%;
     font-size: 1em;
+    margin: 10px auto;
 }
 
 .inv-px {    
@@ -773,6 +776,7 @@ GET INVOLVED
     font-size: 1em;
     line-height: 1.2em;
     font-weight: bold;
+    margin: auto;
     padding: 20px 0;
 }
 
