@@ -2,15 +2,14 @@
 /*QUOTES*/
 
 .quote1, .quote2, .quote3 {
-    text-align: center;
-    margin: auto;
+    display: block;
     font-style: italic;
     color: var(--black);    
     border: 2px solid var(--pink);
     border-radius: 0 60px;
-    min-width: 300px;
-    margin: 30px 10px;
-    justify-content: center;
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
 }
 
 .q1, .q2, .q3 {
