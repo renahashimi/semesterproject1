@@ -171,7 +171,7 @@
 
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
     
 .header1 {
     height: 120px;
@@ -216,7 +216,7 @@
 }
  
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1440px) {
 
 .header1 {
     height: 160px;
@@ -238,12 +238,16 @@
     margin-left: 40px;
 }
 
-.links1 ul{
-    font-size: 1.3em;
+.links1 ul {
+    font-size: 1.4em;
 }
 
 .links1 a {
     padding: 7px 40px;
+}
+
+.links2 {
+    font-size: 1.4em;
 }
 
 }

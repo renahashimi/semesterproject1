@@ -1454,7 +1454,7 @@ MEDIA
 }
 
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
 
 
 /*HOME*/
@@ -1466,6 +1466,7 @@ MEDIA
 .h1-name {
     font-size: 1.8em;
 }
+
 .ex {
     font-size: 3em;
     font-weight: 700;
@@ -1630,7 +1631,6 @@ MEDIA
 .dino2 {
     width: 100%;
 }
-
 
 .pale {
    text-align: center;
@@ -1939,7 +1939,7 @@ MEDIA
 }
 
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1440px) {
 
 
 /*HOME*/
@@ -1987,6 +1987,7 @@ MEDIA
     height: 490px;
     margin-bottom: 50px;
 }
+
 article
 .art-rm {
     margin-top: 30px;
@@ -1997,6 +1998,89 @@ article
     margin: 40px 0 20px 60px;
 }
 
+
+
+/*EXPLORE*/
+
+.content-exp {
+    width: 1200px;
+}
+
+.box1  {
+    width: 500px;
+    border: 6px double var(--pink);
+}
+
+.box2 {
+    height: 600px;
+    width: 530px;
+    margin: 25px 0;
+}
+
+.box-img1 {
+    margin-top: 30px;
+}
+
+.box-p2 {
+    font-size: 1.2em;
+}
+
+.line {
+    display: none;
+}
+
+.content-box3 {
+    display: flex;
+    width: 1200px;
+    margin: 90px auto;
+    justify-content: space-evenly;
+}
+
+.ex1{
+    display: block;
+    margin: 0;
+}
+
+.box3 {
+    display: flex;
+    width: 600px;
+}
+
+.box3::before, .box3::after {
+    content: "";
+    display: inline-block;
+    border: 2px double var(--pink);
+}
+
+.box-img4, .box-img5 {
+    width: 400px;
+    height: 300px;
+    margin: 0;
+}
+
+.box-img4 {
+    margin-top: 30px;
+}
+
+.expl-name {
+    margin: auto;
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    font-size: 2.5em;
+    text-align: center;
+    letter-spacing: 0.3em;
+    margin: 0 30px;
+}
+.expl-name1 {
+    font-size: 2em;
+    letter-spacing: 0.3em;
+}
+
+.box-p3, .box-p4{
+    width: 400px;
+    margin: 20px auto;
+    text-align: left;
+}
 
 
 /*VISIT*/
