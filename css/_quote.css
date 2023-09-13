@@ -16,7 +16,7 @@
     font-family: 'Indie Flower', cursive;
     font-size: 1.2em;
     margin: auto;
-    padding: 20px 10px 15px;
+    padding: 20px 5px 15px;
     justify-content: center;
     line-height: 1.8em;
     letter-spacing: 0.1em;
@@ -49,13 +49,12 @@
 
 .quote1, .quote2, .quote3 {
     justify-content: center;
-    max-width: 660px;
+    width: 670px;
     margin: 30px auto;
 }
     
 .q1, .q2, .q3 {
     font-size: 1.2em;
-    max-width: 600px;
     padding: 15px;
 }
 

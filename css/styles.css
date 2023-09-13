@@ -213,7 +213,8 @@ HOME
 
 .turb-p h3, .turb1 .d-t {  
     position: absolute;
-    width: 80%;
+    font-size: 1em;
+    width: 75%;
     top: 0;
     right: 0;
     color: var(--white);
@@ -226,13 +227,13 @@ HOME
 .turb1 .d-t {
     color: var(--pink);
     margin-top: 90px;
-    font-size: 1.15em;
+    font-size: 1em;
 }
 
 .remo {
     position: absolute;
     top: 70%;
-    left: 65%;
+    left: 60%;
     color: var(--white);
     border: 2px solid var(--white);
     border-radius: 20px 0;
@@ -275,7 +276,7 @@ HOME
 .d-t {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--pink);
-    font-size: 1.15em;
+    font-size: 1em;
     margin: 20px 10px;
     font-weight: bold;
     line-height: -20%;
@@ -389,25 +390,26 @@ EXHIBITION SPACE
 }
 
 .content-article {
+    max-width: 400px;
     display: grid;
     grid-template-rows: auto auto;
     justify-content: center;
+    margin: auto;
 }
 
 .px1 {
     display: block;
-    width: 90%;
+    width: 70%;
     max-width: 400px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2em; 
+    margin: 60px auto -15px 25px;
     border-left: 4px solid var(--pink);
-    margin: 80px auto -10px 95px;
-    padding-left: 10px;
+    padding-left: 20px;
     font-weight: bolder;
 }
 
 .article {
-    display: block;
     width: 95%;
     max-width: 400px;
     margin: 30px auto;
@@ -421,7 +423,7 @@ EXHIBITION SPACE
 .art-x {
     width: 90%;
     border: 3px solid var(--pink);
-    margin: 20px 0;
+    margin: 20px auto;
 }
 
 .art-x2 a {
@@ -1103,7 +1105,7 @@ MEDIA
 
 .px1 {
     min-width: 660px;
-    margin: 10px auto -10px -25px;
+    margin: 10px auto -10px -15px;
     font-size: 1.4em;
 }
 
@@ -1630,7 +1632,7 @@ MEDIA
 
 .px1 {
     min-width: 840px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 .content-dino {
