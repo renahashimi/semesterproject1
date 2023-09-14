@@ -2073,6 +2073,7 @@ article
 .box3 {
     display: flex;
     width: 600px;
+    height: 700px;
 }
 
 .box3::before, .box3::after {
