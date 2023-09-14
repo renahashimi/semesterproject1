@@ -1127,7 +1127,7 @@ MEDIA
     font-size: 1.5em;
     -webkit-text-stroke: 1px var(--black);
     background-color: var(--white);
-    border: 2px solid var(--pink);
+    border-top: 8px double var(--pink);
 }
 
 .pale-p {
@@ -1645,7 +1645,7 @@ MEDIA
 }
 
 .dino {
-    width: 800px;
+    max-width: 800px;
     height: 345px;
     margin: auto;
 }
@@ -2026,6 +2026,60 @@ article
     font-size: 1.6em;
     margin: 40px 0 20px 60px;
 }
+
+.dino {
+    max-width: 1000px;
+    height: 350px;
+    border-bottom: 6px double var(--black);
+}
+
+.pale {
+    font-size: 2.2em;
+ 
+}
+
+.pale-p {
+    font-size: 1.6em;
+    color: var(--pink);
+    width: 50%;
+}
+
+
+.dino2 img {
+    width: 650px;
+    margin-top: -26px;
+}
+
+/*
+
+.dino {
+    width: 800px;
+    height: 345px;
+    margin: auto;
+}
+
+.dino2 {
+    width: 100%;
+}
+
+.pale {
+   text-align: center;
+   font-size: 2em;
+   padding: 20px 0;
+   letter-spacing: 0.8em;
+}
+
+.dino2 img {
+    width: 500px;
+    height: 263px;
+    margin-top: -25px;
+}
+
+.pale-p {
+    margin-top: 40px;
+}
+
+*/
 
 
 
