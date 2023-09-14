@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 80px auto;
     background-color: var(--pink);
+    margin-top: -120px;
 }
 
 .logotext {
@@ -12,6 +13,12 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
+    background-color: var(--white);
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    border-bottom: 5px double var(--pink);
 }
 
 .logo {
@@ -61,10 +68,8 @@
     margin: 2px;
 }
 
-
 #menu-checkbox:checked ~ .links2 {
     background-color: var(--white);
-    position: absolute;
     display: flex;
     width: 100%;
     position: absolute;
@@ -75,7 +80,7 @@
 
 .navigation .fa-solid {
     display: block;
-    margin: 45px 30px 20px;
+    margin: 50px 20px 20px;
 }
 
 .links2  {
@@ -86,10 +91,10 @@
 .nav2 {
     font-size: 1em;
     width: 100%;
-    height: 330px;
+    height: 300px;
     text-align: center;
     margin-top: 0;
-    border-bottom: 1px solid var(--black);
+    border-bottom: 5px double var(--pink);
 }
 
 .nav2 li {
@@ -107,10 +112,17 @@
     color: var(--black);
 }
 
+.nav2 a:hover{
+    background-color: var(--pink);
+    padding: 10px 0;
+    font-size: 1.2em;
+    color: var(--white);
+}
+
 .logox {
     display: block;
     width: 60px;
-    margin: 40px 30px 0;
+    margin: 20px 20px 0;
     float: right;
     grid-row-start: span 2;
 }
@@ -131,6 +143,21 @@
 }
 
 
+@media screen and (min-width: 500px) {
+
+
+.links1 a {
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    padding: 10px;
+}
+
+.links1 a::before, .links1 a::after {
+    content: "";
+    border: 0.5px solid var(--white);
+    margin: 5px;
+}
+}
 
 
 @media screen and (min-width: 768px) {
@@ -154,7 +181,7 @@
     
 .logox {
     width: 70px;
-    margin: 40px 30px 0;
+    margin-right: 30px;
 }
     
 .links1 {
@@ -169,21 +196,30 @@
 }
     
 #menu-checkbox:checked ~ .links2 {
-    width: 40%;
+    width: 45%;
     height: 100vh;
     margin-top: -5px;
+}
+
+.navigation{
+    margin-left: 30px;
 }
     
 .nav2 {
     border: none;
-    margin-top: 20px;
+    margin-top: 30px;
 }
     
 .nav2 li {
     border: none;
     text-align: left;
-    padding: 12px 30px;
+    padding: 12px 50px;
     letter-spacing: 0.4em;
+}
+
+.links2 {
+    margin-left: -30px;
+    font-size: 1.1em;
 }
 
 }
@@ -192,8 +228,17 @@
     
 .header1 {
     height: 120px;
+
 }
-     
+    
+.header2{
+    height: 120px;
+}
+
+.navigation {
+    margin-top: 10px;
+}
+
 .logo {
     width: 70px;
 }
@@ -215,11 +260,11 @@
     
 .links1 {
     padding: 4px 0;
-    font-size: 1.3em;
 }
     
 .links1 a {
     padding: 10px 30px 15px;
+    font-size: 1.3em;
 }
     
 #menu-checkbox:checked ~ .links2 {
@@ -256,11 +301,11 @@
 }
 
 .links1 ul {
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .links1 a {
-    padding: 7px 40px;
+    padding: 10px 40px;
 }
 
 .links2 {
