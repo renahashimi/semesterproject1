@@ -2,7 +2,7 @@ Semester Project 1
 
 
 
-My notes;
+NOTES:
 
 
 FONTS:

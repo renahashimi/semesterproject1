@@ -7,6 +7,7 @@
 
 body {  
     font-family: Georgia, 'Times New Roman', Times, serif;
+
     padding: 0;
     margin: 0;  
     margin-top: 130px;
@@ -533,11 +534,33 @@ EXPLORE
     margin-bottom: 30px;
 }
 
+.expl-name1 span {
+    font-size: 2em;
+    -webkit-text-stroke: 2px var(--black);
+}
+
+.l1 {
+    color: rgb(180, 120, 180);
+}
+
+.l2 {
+    color: rgb(180, 90, 180);
+}
+
+.l3 {
+    color: rgb(180, 60, 180);
+}
+
+.l4 {
+    color: rgb(180, 30, 180);
+    
+}
+
 .box1 {
     width: 95%;
     max-width: 450px;
     background-color: var(--white);
-    border: 4px dotted var(--pink);
+    border: 4px double var(--pink);
     color: var(--black);
     margin: auto;
     padding: 0;
@@ -766,6 +789,7 @@ GET INVOLVED
     font-size: 1em;
     margin: 10px auto;
     text-align: center;
+    max-width: 450px;
 }
 
 .inv-px {    
@@ -1110,6 +1134,7 @@ MEDIA
     max-width: 690px;
     height: 305px;
     margin: 70px auto;
+    border-bottom: 6px double var(--black);
 }
 
 .dino2 {
@@ -1234,11 +1259,6 @@ MEDIA
     margin-left: 40px;
 }
 
-.expl-name1 {
-    text-align: center;
-    font-size: 1.6em;
-}
-
 .ex-p2 {
     font-size: 1.25em;
 }
@@ -1246,6 +1266,7 @@ MEDIA
 .box1 .box-p {
     font-size: 1.3em;
     line-height: 1em;
+    padding: 5px 15px;
 }
 
 .ce1 {
@@ -1263,8 +1284,7 @@ MEDIA
 }
 
 .box3 {
-    display: flexbox;
-    width: 700px;
+    width: 680px;
     margin: 0 auto;
 }
 
@@ -1276,18 +1296,17 @@ MEDIA
     display: none;
 }
 
-.box-img4 {
-    width: 280px;
-    margin-left: 20px;
-    margin-bottom: 70px;
-}
-
-.box-img5 {
+.box-img4, .box-img5 {
     display: block;
     width: 250px;
     height: 250px;
     margin: 20px 0;
     object-fit: cover;
+}
+
+.box-img4 {
+    margin: 20px 0 70px 20px;
+
 }
 
 .ex1 {
@@ -1301,6 +1320,7 @@ MEDIA
 
 .box-p3, .box-p4  {
     display: block;
+    width: 280px;
     margin: 20px 5px 0 20px;
     padding: 0;
     float: left;
@@ -2028,7 +2048,6 @@ article
 .dino {
     max-width: 1000px;
     height: 350px;
-    border-bottom: 6px double var(--black);
 }
 
 .pale {
@@ -2147,6 +2166,10 @@ article
 .name, .email, .phone, .c-text {
     width: 85%;
     font-size: 1em;
+}
+
+.c-name, .c-email, .c-phone {
+    margin: 10px 20px -10px;
 }
 
 .visit3 .visit-box  {
