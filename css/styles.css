@@ -1,20 +1,21 @@
-
 :root {
     --pink: #CB87B4;
     --black: #000;
     --white: #fff;   
 }
 
+
 body {  
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 120px auto 0;
+    padding: 0;
+    margin: 0;  
+    margin-top: 130px;
 }
 
 @import url("_nav.css");
-@import url("_allpages.css");
 @import url("_footer.css");
 @import url("_quote.css");
-
+@import url("_allpages.css");
 
 
 /*
@@ -86,7 +87,6 @@ HOME
     transform: skewY(-8deg);
     z-index: -1;
     height: 80%;
-    margin-top: 30px;
     opacity: 0.8;
 }
 
@@ -362,7 +362,6 @@ EXHIBITION SPACE
     display: block;
     color: var(--pink);
     padding: 20px 0;
-    font-size: 1.1em;
 }
 
 .pale-p, .pale-p2 {
@@ -748,6 +747,7 @@ GET INVOLVED
 .inv .inv-img, .inv1 .inv-img1 {
     display: block;
     width: 70%;
+    max-width: 300px;
     margin: 10px auto;
     border-radius: 15px;
 }
@@ -761,16 +761,15 @@ GET INVOLVED
     margin: 0 auto 40px;
 }
 
-.inv-p {
+.inv-p, .inv-px{
     width: 85%;
     font-size: 1em;
     margin: 10px auto;
+    text-align: center;
 }
 
 .inv-px {    
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 85%;
-    font-size: 1em;
     line-height: 1.2em;
     font-weight: bold;
     margin: auto;
@@ -1425,6 +1424,10 @@ MEDIA
 
 .inv1 .inv-img1{
     object-fit: cover;
+}
+
+.inv-p, .inv-px{
+    text-align: left;
 }
 
 .inv-head, .inv-head1, .inv-head2 {
