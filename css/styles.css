@@ -1,7 +1,8 @@
+
 :root {
     --pink: #CB87B4;
     --black: #000;
-    --white: #fff;    
+    --white: #fff;   
 }
 
 body {  
@@ -9,12 +10,10 @@ body {
     margin: 120px auto 0;
 }
 
-
 @import url("_nav.css");
 @import url("_allpages.css");
 @import url("_footer.css");
 @import url("_quote.css");
-
 
 
 
@@ -103,8 +102,9 @@ HOME
     text-align: center;
     font-size: 1.3em;
     margin: 20px 30px 80px;
-    color: var(--pink);
+    color: var(--black);
     letter-spacing: 0.1em;
+    -webkit-text-stroke: 2px var(--pink);
 }
 
 .color-head {  
@@ -279,7 +279,6 @@ HOME
     font-size: 1em;
     margin: 20px 10px;
     font-weight: bold;
-    line-height: -20%;
     word-spacing: 10px;
 }
 
@@ -574,6 +573,7 @@ EXPLORE
     border-left: 1px solid var(--pink);
     border-right: 1px solid var(--pink);
     padding: 10px;
+    margin: 20px auto;
 }
 
 .box-p2 {
@@ -581,13 +581,8 @@ EXPLORE
     line-height: 1.5em;
 }
 
-.box-p3 {
-    margin: 20px;
-    margin-bottom: 0;
-}
-
 .box-p4 {
-    margin: 0 20px 70px;
+    margin-bottom: 70px;
 }
 
 .box-img1 {
@@ -1081,6 +1076,8 @@ MEDIA
 
 .content-night .d-t, .turb-p .d-t, .d-t {
     font-size: 1.2em;
+    -webkit-text-stroke: 1px var(--pink);
+    color: var(--black);
 }
 
 
@@ -1440,7 +1437,7 @@ MEDIA
     background-color: var(--pink);
     width: 30px;
     color: var(--white);
-    padding: 10px 0;
+    padding: 10px 15px;
 }
 
 
@@ -1823,12 +1820,10 @@ MEDIA
 /*VISIT*/
 
 .content-visit {
-    min-width: 1000px;
-    max-width: 1300px;
     margin: 20px auto;
 }
 
-.visit2 {
+.visit1, .visit2 {
     width: 1000px;
     justify-content: center;
 }
@@ -2050,38 +2045,6 @@ article
     margin-top: -26px;
 }
 
-/*
-
-.dino {
-    width: 800px;
-    height: 345px;
-    margin: auto;
-}
-
-.dino2 {
-    width: 100%;
-}
-
-.pale {
-   text-align: center;
-   font-size: 2em;
-   padding: 20px 0;
-   letter-spacing: 0.8em;
-}
-
-.dino2 img {
-    width: 500px;
-    height: 263px;
-    margin-top: -25px;
-}
-
-.pale-p {
-    margin-top: 40px;
-}
-
-*/
-
-
 
 /*EXPLORE*/
 
@@ -2169,11 +2132,7 @@ article
 
 /*VISIT*/
 
-.content-visit {
-    min-width: 1300px;
-}
-
-.visit2 {
+.visit1, .visit2 {
     min-width: 1300px;
 }
 
