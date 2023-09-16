@@ -292,21 +292,22 @@ EXHIBITION SPACE
 .content-cosmos {
     display: block;
     background: #0E0E0C;
-    width: 100%;
-    margin-top: 20px;
+    width: 95%;
+    margin: 20px auto 0;
     border: 1px solid var(--white);
 }
 
 .content-cosmos h2 {
+    width: 90%;
     color: var(--white);
-    padding: 30px 0 0;
-    margin-top: 10px;
+    padding-top: 30px;
+    margin: 20px auto;
 }
 
 .content-cosmos h2, .pale, .art-name2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.3em;
-    letter-spacing: 0.3em;
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
     text-align: center;
 }
@@ -321,7 +322,7 @@ EXHIBITION SPACE
 
 .p-cosmos {
     color: var(--white);
-    margin: 0 25px;
+    margin: 0 10px;
     font-size: 1.1em;
     font-weight: 300;
     text-align: center;
@@ -388,6 +389,7 @@ EXHIBITION SPACE
 }
 
 .content-article {
+    width: 95%;
     max-width: 400px;
     display: grid;
     grid-template-rows: auto auto;
@@ -403,7 +405,7 @@ EXHIBITION SPACE
     font-size: 1.2em; 
     margin: 60px auto -15px 25px;
     border-left: 4px solid var(--pink);
-    padding-left: 20px;
+    padding-left: 15px;
     font-weight: bolder;
 }
 

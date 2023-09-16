@@ -41,14 +41,6 @@ p {
     transition: 0.2s ease-out;
 }
 
-.separate {
-    content: "";
-    display: flex;
-    width: 70%;
-    height: 2px;
-    margin: 50px auto 10px;
-    background-color: var(--black);
-}
 
 @media screen and (min-width: 768px) {
 
