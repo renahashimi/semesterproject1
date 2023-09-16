@@ -41,6 +41,14 @@ p {
     transition: 0.2s ease-out;
 }
 
+.separate {
+    content: "";
+    position: relative;
+    width: 200px;
+    height: 2px;
+    margin: 50px auto 10px;
+    background-color: var(--black);
+}
 
 @media screen and (min-width: 768px) {
 
