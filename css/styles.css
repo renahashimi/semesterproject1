@@ -829,7 +829,7 @@ GET INVOLVED
 
 /*
 -----------------
-"READ MORE"-BUTTON PAGE
+TEXT
 -----------------
 */
 
@@ -1494,7 +1494,7 @@ MEDIA
 
 
 
-/*"READ MORE"-BUTTON PAGE*/
+/*TEXT*/
 
 .content-read {
     margin-left: 40px;
@@ -1987,7 +1987,7 @@ body {
 }
 
 
-/*"READ MORE"-BUTTON PAGE*/
+/*TEXT*/
 
 .content-read {
     margin-left: 40px;
@@ -2231,6 +2231,18 @@ article
 .contact-p {
     font-size: 0.8em;
 }
+
+/*TEXT*/
+
+.cr-img {
+    width: 700px;
+}
+
+.read-p {
+    max-width: 850px;
+    font-size: 1.3em;
+}
+
 
 
 
