@@ -241,7 +241,7 @@
     
 .header1 {
     margin-top: -140px;
-    height: 120px;
+    height: 95px;
 }
     
 .header2{
@@ -253,29 +253,23 @@
 }
 
 .logo {
-    width: 70px;
-    margin: 25px 0 0 20px;
+    width: 60px;
+    margin: 20px 0 0 20px;
 }
     
 .top {
     font-size: 1.6em;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin: 20px 0 0 20px;
 }
     
 .csm {
     font-size: 1.4em;
-    margin-left: 30px;
-}
-    
-.logox {
-    width: 80px;
-    margin: 20px 30px;
+    margin-left: 20px;
 }
     
 .links1 {
-    margin-top: -50px;
-    padding: 4px 0;
+    margin-top: -70px;
+    padding: 15px 0 0;
 }
     
 .links1 a {
@@ -287,8 +281,14 @@
     display: flex;
     width: 100%;
     padding: 10px 0;
+    margin: 10px 0 0 0;
 }
-    
+
+.logox {
+    width: 80px;
+    margin: 20px 30px;
+}
+
 .links2  {
     display: block;
     margin-left: 2px;
