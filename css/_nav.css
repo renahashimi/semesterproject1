@@ -301,7 +301,8 @@
 .links2 li {
     padding: 0;
     margin: 0 10px;
-    border-left: 1px solid var(--pink);
+    border-top: 0.5px solid var(--pink);
+    border-radius: 40px;
 }
 
 .links2 a {
@@ -316,7 +317,7 @@
     background-color: var(--white);
     border: 2px solid var(--pink);
     padding: 10px 14px;
-    margin: -10px;
+    margin: -11px;
     width: 100%;
     font-size: 0.8em;
     color: var(--black);
@@ -332,6 +333,7 @@
     width: 80%;
     height: 0;
     margin-top: -20px;
+}
 }
  
 
@@ -363,16 +365,26 @@
 
 .links1 ul {
     padding: 15px 0;
-
 }
 
 .links1 a {
     font-size: 1.3em;
-    padding: 15px 40px;
 }
 
 .links2 {
-    font-size: 1.4em;
+    font-size: 1.3em;
+}
+
+.links2 a {
+    margin: 0 20px;
+}
+
+.links2 a:hover{
+    margin: 4px;
+}
+
+.links2 li:hover {
+    border: none;
 }
 
 }

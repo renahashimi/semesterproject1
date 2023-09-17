@@ -69,6 +69,27 @@ HOME
     max-width: 80%;
 }
 
+.ticket { 
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: -20px auto;
+    padding-bottom: 10px;
+}
+
+.tic1 {
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    color: var(--black);
+    font-size: 1em;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+    -webkit-text-stroke: 1px var(--black);
+}
+
 .content-img {
     display: flex;
     position: relative;
@@ -136,6 +157,7 @@ HOME
 
 .expl-text {
     display: flex;
+    min-height: 230px;
     border: 2px solid var(--pink);
     margin: 10px;
     height: auto;
@@ -152,7 +174,7 @@ HOME
 }
 
 .img2 {
-    width: 33%;
+    width: 40%;
 }
 
 .content-night {
@@ -901,6 +923,10 @@ MEDIA
     font-size: 1.3em;
 }
 
+.ticket { 
+    font-size: 1.6em;
+}
+
 .img1 {
     width: 25%;
 }
@@ -1519,6 +1545,10 @@ body {
  
 .ex-p {
     font-size: 1.4em;
+}
+
+.ticket {
+    font-size: 2em;
 }
 
 .ex-p3 {
