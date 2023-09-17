@@ -24,10 +24,6 @@ p {
     font-size: 1em;
 }
 
-#menu-checkbox, .links2, #back  {
-    display: none;
-}
-
 .back-to-top {
     text-align: center;
     margin: 80px auto 30px;
