@@ -11,12 +11,12 @@ This is my Noroff Semester Project 1 and in this project I created a website for
 
 This website contains these pages:
 
-- index.html
-- explore.html
-- exhibition.html
-- getinvolved.html
-- visit.html
-- text.html
+- Home / index.html
+- Explore page / explore.html
+- Exhibition page / exhibition.html
+- Get involved / getinvolved.html
+- Visit&Contact / visit.html
+- Readme link text / text.html
 
 ## Built With
 
